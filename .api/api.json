@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "opticodds",
+      "source": "@opticodds/v3.0#2ee6y2wm1fph97x",
+      "integrity": "sha512-DLBofvZkto3D5CjY34Atgcj3idn0p7x4Uo7Msg5cAFxPkiWjS/yRrXRqedn1RNyO6ZcN5SH1FuScVsS5mSgsrg==",
+      "installerVersion": "6.1.2"
+    }
+  ]
+}
