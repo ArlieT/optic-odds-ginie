@@ -1,95 +1,68 @@
-import { sport } from "../type";
+import { Market, sport } from "../type";
+import fetch from "node-fetch";
 
 type GetMarketsParams = {
   sport: sport;
 };
 
-type Market = {
-  data: {
-    id: string;
-    name: string;
-    sport: any[];
-  }[];
+const fetchFromApi = async (url: string): Promise<any> => {
+  const options = {
+    method: "GET",
+    headers: {
+      accept: "application/json",
+      "X-Api-Key": process.env.OPTIC_API_KEY!,
+    },
+  };
+
+  try {
+    const response = await fetch(url, options);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error(`Fetch failed: ${error}`);
+    return null;
+  }
 };
 
 const getMarkets = async ({
   sport,
-}: GetMarketsParams): Promise<Market | string | undefined> => {
-  const fetch = require("node-fetch");
-
+}: GetMarketsParams): Promise<Market | string> => {
   if (!sport) {
     throw new Error("sport is required");
   }
 
   const url = `https://api.opticodds.com/api/v3/markets?sport=${sport}`;
-  const options = {
-    method: "GET",
-    headers: {
-      accept: "application/json",
-      "X-Api-Key": process.env.OPTIC_API_KEY!,
-    },
-  };
-
-  const response = await fetch(url, options);
-
-  if (!response) {
-    return "no response";
-  }
-
-  try {
-    const data: Market = await response.json();
-    return data;
-  } catch (e) {
-    console.log("error");
-  }
+  const data = await fetchFromApi(url);
+  return data || "error";
 };
 
-const getSportsBooks = async () => {
-  const fetch = require("node-fetch");
-
+const getSportsBooks = async (): Promise<void> => {
   const url = `https://api.opticodds.com/api/v3/sportsbook`;
-  const options = {
-    method: "GET",
-    headers: {
-      accept: "application/json",
-      "X-Api-Key": process.env.OPTIC_API_KEY!,
-    },
-  };
-
-  fetch(url, options)
-    .then((res) => res.json())
-    .then((json) => console.log(json))
-    .catch((err) => console.error("error:" + err));
+  const data = await fetchFromApi(url);
+  return data || "error";
 };
 
-const getLeauges = async ({ sport }: { sport: sport }) => {
-  const fetch = require("node-fetch");
-
+const getLeagues = async ({ sport }: { sport: sport }): Promise<any> => {
   if (!sport) {
     throw new Error("sport is required");
   }
 
   const url = `https://api.opticodds.com/api/v3/leagues?sport=${sport}`;
-  const options = {
-    method: "GET",
-    headers: {
-      accept: "application/json",
-      "X-Api-Key": process.env.OPTIC_API_KEY!,
-    },
-  };
+  const data = await fetchFromApi(url);
 
-  const response = await fetch(url, options);
-
-  if (!response) {
-    return "no response";
-  }
-
-  try {
-    const data = await response.json();
-    return data;
-  } catch (e) {
-    console.log("error");
-  }
+  return data || "error";
 };
 
-export { getMarkets, getSportsBooks, getLeauges };
+const getFixtures = async ({ sport }: { sport: sport }): Promise<any> => {
+  if (!sport) {
+    throw new Error("sport is required");
+  }
+
+  const url = `https://api.opticodds.com/api/v3/fixtures?sport=${sport}`;
+  const data = await fetchFromApi(url);
+  return data || "error";
+};
+
+export { getMarkets, getSportsBooks, getLeagues, getFixtures };

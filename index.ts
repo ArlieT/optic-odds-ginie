@@ -1,21 +1,29 @@
 import EventSource from "eventsource";
-import { getLeauges, getMarkets } from "./fetch";
+import { getLeagues, getMarkets, getFixtures } from "./fetch";
+
+import { saveFixturesToExcel, saveMarketsToExcel } from "./lib/save-data";
+import { Market } from "./type";
 
 const sports = process.argv[2];
 
 const url = `https://api.opticodds.com/api/v3/stream/${sports}/odds`;
 
-const markets = await getMarkets({ sport: "soccer" });
-const leagues = await getLeauges({ sport: "soccer" });
+async function connectToStream() {
+  const markets = (await getMarkets({ sport: "soccer" })) as Market;
+  const leagues = await getLeagues({ sport: "soccer" });
+  const fixtures = await getFixtures({ sport: "soccer" });
 
-const params = {
-  key: process.env.OPTIC_API_KEY!,
-  sportsbook: ["Pinnacle"],
-  market: [markets?.data?.[0]?.id],
-  league: [leagues?.data?.[0]?.id],
-};
+  // saveMarketsToExcel({ markets });
+  saveFixturesToExcel({ fixtures });
 
-function connectToStream() {
+  const params = {
+    key: process.env.OPTIC_API_KEY!,
+    sportsbook: ["pinnacle"],
+    market: ["team_total"],
+    // league: ["saudi_arabia_-_saudi_league"],
+    fixture: ["07D8948730ED"],
+  };
+
   // Construct the query string with repeated parameters
   const queryString = new URLSearchParams();
   queryString.append("key", params.key);
@@ -23,7 +31,10 @@ function connectToStream() {
     queryString.append("sportsbook", sportsbook)
   );
   params.market.forEach((market) => queryString.append("market", market));
-  params.league.forEach((league) => queryString.append("league", league));
+  // params.league.forEach((league) => queryString.append("league", league));
+  params.fixture.forEach((fixture) =>
+    queryString.append("fixture_id ", fixture)
+  );
 
   console.log(`${url}?${queryString.toString()}`);
 
