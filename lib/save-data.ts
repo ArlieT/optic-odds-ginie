@@ -1,4 +1,5 @@
 import xlsx from "xlsx";
+import fs from "fs";
 import { Market } from "../type";
 import { Fixture } from "../types/fixture";
 
@@ -40,7 +41,7 @@ async function saveMarketsToExcel({ markets }: { markets: Market }) {
   xlsx.utils.book_append_sheet(workbook, worksheet, "Markets Data");
 
   // Write the workbook to a file
-  xlsx.writeFile(workbook, "markets_data.xlsx");
+  xlsx.writeFile(workbook, "./data/markets_data.xlsx");
 
   console.log("Data saved to markets_data.xlsx");
 }
@@ -48,7 +49,6 @@ async function saveMarketsToExcel({ markets }: { markets: Market }) {
 async function saveFixturesToExcel({ fixtures }: { fixtures: Fixture }) {
   const excelData: any = [];
   fixtures.data.forEach((fixture) => {
-    console.log(fixture);
     excelData.push({
       id: fixture.id,
       home: fixture.home_team_display,
@@ -59,13 +59,15 @@ async function saveFixturesToExcel({ fixtures }: { fixtures: Fixture }) {
     });
   });
 
+  fs.writeFileSync("fixtures.json", JSON.stringify(excelData, null, 2));
+
   const worksheet = xlsx.utils.json_to_sheet(excelData);
 
   const workbook = xlsx.utils.book_new();
 
   xlsx.utils.book_append_sheet(workbook, worksheet, "Fixtures Data");
 
-  xlsx.writeFile(workbook, "fixtures_data.xlsx");
+  xlsx.writeFile(workbook, "./data/fixtures_data.xlsx");
 }
 
 export { saveMarketsToExcel, saveFixturesToExcel };

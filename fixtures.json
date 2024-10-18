@@ -1,0 +1,802 @@
+[
+  {
+    "id": "07D8948730ED",
+    "home": "Kumar Sporting FC",
+    "away": "Gangtok Himalayan",
+    "is_live": false,
+    "status": "unplayed",
+    "sport": "soccer"
+  },
+  {
+    "id": "037F4985C7F4",
+    "home": "Police AC",
+    "away": "Army Red",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "49D45B3AC53B",
+    "home": "Wari Athletic Club",
+    "away": "Kalighat MS",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "FF9E6C4DD897",
+    "home": "Suruchi Sangha",
+    "away": "Mohammedan SC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "2B26A60FE300",
+    "home": "Ansan Greeners FC",
+    "away": "Chungbuk Cheongju FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "6CB0B57FBE43",
+    "home": "Chungnam Asan FC",
+    "away": "Cheonan City Government FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "C9930AFA107F",
+    "home": "Seoul E-Land FC",
+    "away": "FC Anyang",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "C4061E10BE16",
+    "home": "FC Buxoro",
+    "away": "Olimpik Mobiuz",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "CEAF179FD5EE",
+    "home": "MKS Sandecja Nowy Sącz",
+    "away": "MKS Cracovia",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "D4E6D6CF8D59",
+    "home": "FC Do'stlik Toshkent",
+    "away": "Mash Al Mubarek",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "D4BFFDF8CB24",
+    "home": "TUV Buganuud",
+    "away": "Deren FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "BC7782E4BAED",
+    "home": "PFK Xorazm",
+    "away": "Pfk Aral",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "A95C94246C41",
+    "home": "PFC Shurtan",
+    "away": "FK Kokand 1912",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "803B0BC8AC48",
+    "home": "Hapoel Hod HaSharon FC",
+    "away": "Beitar Kfar Saba FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "845889B08657",
+    "home": "Hapoel Kiryat Ono FC",
+    "away": "Beitar Petah Tikva FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "9D1288C86BC5",
+    "home": "GKS Pogoń Grodzisk Mazowiecki",
+    "away": "KS Lechia Gdańsk",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "DF55DA63C9ED",
+    "home": "TS Podbeskidzie Bielsko-Biała II",
+    "away": "OKS Odra Opole",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "E2CBB9B45080",
+    "home": "AC Oulu",
+    "away": "FC Inter Turku",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "F544257DEF43",
+    "home": "ŁKS Łódź II",
+    "away": "MKP Kotwica Kołobrzeg",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "21ED53C51ADE",
+    "home": "FAF Elana Toruń",
+    "away": "RTS Widzew Łódź",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "E609FDA872CE",
+    "home": "AFK Csikszereda Miercurea Ciuc",
+    "away": "CSC Dumbrăviţa",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "26ABB87BAAEA",
+    "home": "Wisła Płock SA",
+    "away": "Warta Poznań",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "67D00C6DC87C",
+    "home": "Bnei Eilat",
+    "away": "Ironi Beit Shemesh FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "9EA335AAD882",
+    "home": "FC Tallinn",
+    "away": "JK Tabasalu",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "D3AED976724C",
+    "home": "Tampereen Ilves",
+    "away": "Kuopion Palloseura",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "0FE4843C6FF7",
+    "home": "UC AlbinoLeffe",
+    "away": "Aurora Pro Patria 1919",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "89B293046A06",
+    "home": "FC Dinamo Minsk",
+    "away": "FC Minsk",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "C05360D48E88",
+    "home": "SK Sturm Graz II",
+    "away": "SV Stripfing / Weiden",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "21E21928F589",
+    "home": "VfB Stuttgart 1893 II",
+    "away": "DSC Arminia Bielefeld",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "3B6F6D956288",
+    "home": "Landskrona BoIS",
+    "away": "Helsingborgs IF",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "411174EDAEE0",
+    "home": "SV Sandhausen",
+    "away": "FC Ingolstadt 04",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "43B9026833F9",
+    "home": "VfL Osnabrück",
+    "away": "FC Energie Cottbus",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "4BC84083906B",
+    "home": "FC Erzgebirge Aue",
+    "away": "SV Wehen Wiesbaden",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "534E7E502B41",
+    "home": "Utsiktens BK",
+    "away": "Orgryte IS",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "65BF547C82FF",
+    "home": "Valencia CF",
+    "away": "CA Osasuna",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "8815BCBB624E",
+    "home": "Ironi Beit Dagan FC",
+    "away": "MK Kfar Saba 1928",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "A15D1425D7F6",
+    "home": "Gefle IF",
+    "away": "Ostersunds FK",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "ABA174F8EF14",
+    "home": "Hapoel Mahane Yehuda FC",
+    "away": "Maccabi Giv'at Shmuel",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "D5BB9C57835B",
+    "home": "Sevilla FC",
+    "away": "Real Valladolid CF",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "D707C8167933",
+    "home": "Esenler Erokspor",
+    "away": "Yeni Malatya Spor Kulübü",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "E0F58A675800",
+    "home": "FC Hansa Rostock",
+    "away": "SpVgg Unterhaching",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "EC6B2D329355",
+    "home": "Valerenga IF",
+    "away": "Aalesunds FK",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "E45A983F3B81",
+    "home": "MS Shikun HaMizrah",
+    "away": "Beitar Ironi Kiryat Gat",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "3DB658770B10",
+    "home": "LKS Bruk-Bet Termalica Nieciecza",
+    "away": "GKS Katowice",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "2E7AC30C78E2",
+    "home": "Burton Albion FC",
+    "away": "Notts County FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "324EC70ACA9A",
+    "home": "Gillingham FC",
+    "away": "Crystal Palace Under 21",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "524FEDD572F6",
+    "home": "Doncaster Rovers FC",
+    "away": "Manchester United Under 21",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "D21DD878A956",
+    "home": "Exeter City FC",
+    "away": "Tottenham Hotspur Under 21",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "F3096731E59B",
+    "home": "Palestino",
+    "away": "Deportes Iquique",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "25CE50C7973B",
+    "home": "Etoile Carouge FC",
+    "away": "FC Vaduz",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "8F71719545D9",
+    "home": "AC Bellinzona",
+    "away": "FC Stade-Lausanne-Ouchy",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "03A8D77C268B",
+    "home": "FC Annecy",
+    "away": "Espérance Sportive Troyes Aube Champagne",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "078E358F78C4",
+    "home": "US du Littoral de Dunkerque",
+    "away": "SC Bastia",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "124BDE790DA4",
+    "home": "AC Ajaccio",
+    "away": "Grenoble Foot 38",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "6474CE0B3E8C",
+    "home": "FC Metz",
+    "away": "FC Martigues",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "96415972D474",
+    "home": "Paris FC",
+    "away": "En Avant Guingamp",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "A09EA4CD4751",
+    "home": "FC St.Gallen 1879",
+    "away": "FC Zürich",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "DDD47748EC4B",
+    "home": "ZKS Stal Rzeszów",
+    "away": "MKS Pogoń Szczecin",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "E280EC324B73",
+    "home": "Rodez Aveyron Football",
+    "away": "Stade Lavallois Mayenne FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "E4BFE3721C18",
+    "home": "Clermont Foot 63",
+    "away": "Red Star FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "F369A97FD685",
+    "home": "Pau FC",
+    "away": "FC Lorient",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "FAAF7B30CD5D",
+    "home": "Stade Malherbe Caen",
+    "away": "Amiens SC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "0086E447C808",
+    "home": "Chelsea FC",
+    "away": "Barrow AFC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "03356F45BEA1",
+    "home": "Manchester City FC",
+    "away": "Watford FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "03492F6016C6",
+    "home": "Team Altamura",
+    "away": "Cavese 1919",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "0750C3609B8D",
+    "home": "Harrogate Town FC",
+    "away": "Liverpool Under 21",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "1CA7DDBE0700",
+    "home": "Wealdstone FC",
+    "away": "Southend United FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "36B0D12D7024",
+    "home": "Eastleigh FC",
+    "away": "Woking FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "3DA813BAA23B",
+    "home": "Casertana FC",
+    "away": "Taranto FC 1927",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "420D5AFAB3C9",
+    "home": "Bromley FC",
+    "away": "Chelsea FC Under 21",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "43C018D4E076",
+    "home": "Calcio Padova Spa",
+    "away": "USD Virtusvecomp Verona",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "440EB11FA4E2",
+    "home": "Leyton Orient FC",
+    "away": "Peterborough United FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "4E40A8E53DF7",
+    "home": "Oldham Athletic AFC",
+    "away": "Forest Green Rovers FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "5258B6699FBD",
+    "home": "Maidenhead United FC",
+    "away": "Ebbsfleet United FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "5D7B46ACA021",
+    "home": "Huddersfield Town FC",
+    "away": "Blackpool FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "6473B239343F",
+    "home": "Novara Calcio",
+    "away": "FC Pro Vercelli Calcio",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "7643043C958C",
+    "home": "Gateshead FC",
+    "away": "Boston United FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "8C9E7E07E0DB",
+    "home": "Hartlepool United FC",
+    "away": "Rochdale AFC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "973C737D11C1",
+    "home": "Sutton United FC",
+    "away": "Yeovil Town FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "98540254134A",
+    "home": "AFC Fylde",
+    "away": "Tamworth FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "AFC72175D672",
+    "home": "Altrincham FC",
+    "away": "Dagenham & Redbridge FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "B4A73CB5150E",
+    "home": "FC Turris 1944",
+    "away": "US Avellino 1912",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "C190D1E3D592",
+    "home": "SS Arezzo",
+    "away": "AS Gubbio 1910",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "C2460218E93A",
+    "home": "US Sestri Levante",
+    "away": "ASD Torres",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "CF57146F0BF5",
+    "home": "Braintree Town FC",
+    "away": "FC Halifax Town",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "CFDF2A3123A6",
+    "home": "LR Vicenza Virtus",
+    "away": "AC Renate",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "D81E1FEF5ECC",
+    "home": "Atalanta Bergamasca Calcio",
+    "away": "Calcio Como 1907",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "DFC04EBC7FB9",
+    "home": "Walsall FC",
+    "away": "Leicester City FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "E6333375DEE4",
+    "home": "Solihull Moors FC",
+    "away": "York City FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "EF012D254203",
+    "home": "Aldershot Town FC",
+    "away": "Barnet FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "F47F6831EC29",
+    "home": "Wigan Athletic FC",
+    "away": "Stevenage FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "0657F80FAF62",
+    "home": "Real Madrid CF",
+    "away": "Deportivo Alavés",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "F8429ACA3AD4",
+    "home": "Wycombe Wanderers FC",
+    "away": "Aston Villa FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "A244254755E8",
+    "home": "Orsomarso SC",
+    "away": "Club Llaneros SA",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "FF576115EBF5",
+    "home": "Cobreloa",
+    "away": "Nublense",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "424D01E303C9",
+    "home": "Cuniburo FC",
+    "away": "Guayaquil City",
+    "is_live": false,
+    "status": "delayed",
+    "sport": "soccer"
+  },
+  {
+    "id": "ECF7DA7D138A",
+    "home": "Chacaritas FC",
+    "away": "Gualaceo SC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "E6C0C6FF827C",
+    "home": "Operário Ferroviário EC",
+    "away": "Guarani FC",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "210373465E9C",
+    "home": "Universidad de Chile",
+    "away": "Huachipato",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  },
+  {
+    "id": "D265C21D8B79",
+    "home": "Coquimbo Unido",
+    "away": "Everton de Vina del Mar",
+    "is_live": false,
+    "status": "completed",
+    "sport": "soccer"
+  }
+]

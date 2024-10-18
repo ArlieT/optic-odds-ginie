@@ -8,11 +8,11 @@ const sports = process.argv[2];
 
 const url = `https://api.opticodds.com/api/v3/stream/${sports}/odds`;
 
-async function connectToStream() {
-  const markets = (await getMarkets({ sport: "soccer" })) as Market;
-  const leagues = await getLeagues({ sport: "soccer" });
-  const fixtures = await getFixtures({ sport: "soccer" });
+const markets = (await getMarkets({ sport: "soccer" })) as Market;
+const leagues = await getLeagues({ sport: "soccer" });
+const fixtures = await getFixtures({ sport: "soccer" });
 
+async function connectToStream() {
   // saveMarketsToExcel({ markets });
   saveFixturesToExcel({ fixtures });
 
@@ -21,7 +21,7 @@ async function connectToStream() {
     sportsbook: ["pinnacle"],
     market: ["team_total"],
     // league: ["saudi_arabia_-_saudi_league"],
-    fixture: ["07D8948730ED"],
+    fixture: ["E2519EBC5BE2"],
   };
 
   // Construct the query string with repeated parameters
@@ -33,7 +33,7 @@ async function connectToStream() {
   params.market.forEach((market) => queryString.append("market", market));
   // params.league.forEach((league) => queryString.append("league", league));
   params.fixture.forEach((fixture) =>
-    queryString.append("fixture_id ", fixture)
+    queryString.append("fixture_id", fixture)
   );
 
   console.log(`${url}?${queryString.toString()}`);
@@ -67,4 +67,19 @@ async function connectToStream() {
   };
 }
 
-connectToStream();
+let run_count = 0;
+
+function runTask() {
+  if (run_count < 1) {
+    connectToStream();
+  }
+
+  // Schedule the save operation every 5 seconds
+  setTimeout(() => {
+    saveFixturesToExcel({ fixtures });
+  }, 5000);
+
+  run_count += 1;
+}
+
+setInterval(runTask, 5000);
